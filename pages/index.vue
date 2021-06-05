@@ -88,7 +88,6 @@ export default {
           this.$router.push('./bank')
         } else {
           this.erorrData.snackbar = true
-          console.log('a')
         }
       } catch (e) {
         console.log(e)
